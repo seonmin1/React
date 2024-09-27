@@ -4,7 +4,13 @@ import { championRankingList } from "./data";
 const CardLayout = () => {
   return (
     <main style={{ width: "100vw" }}>
-      <section style={{ width: "100%", maxWidth: "1000px", margin: "0 auto" }}>
+      <section
+        style={{
+          width: "100%",
+          maxWidth: "1000px",
+          margin: "0 auto",
+        }}
+      >
         {championRankingList.map((v) => (
           <Card
             Rank={v.positionTierData.rank}

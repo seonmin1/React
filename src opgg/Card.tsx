@@ -27,8 +27,9 @@ const Card = (props: CardProps) => {
   const CardStyle: CSSProperties = {
     display: "flex",
     flexDirection: "row",
-    padding: "2px 5px",
+    padding: "5px 5px",
     gap: "10px",
+    borderBottom: "1px solid #F0F2F4",
   };
   return (
     <article style={CardStyle}>
